@@ -302,14 +302,14 @@
   .exp-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
   .exp-company { font-size: 1.1rem; font-weight: 700; }
   .exp-role { color: var(--accent); font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; margin-top: 0.2rem; }
-  .exp-period { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--muted); background: var(--surface2); padding: 0.3rem 0.8rem; border-radius: 100px; border: 1px solid var(--border); }
+  .exp-period { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--muted); background: var(--surface2); padding: 0.3rem 0.8rem; border-radius: 100px; border: 1px solid var(--border); white-space: nowrap; }
   .exp-points { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
   .exp-points li { padding-left: 1.2rem; position: relative; color: #8899bb; font-size: 0.92rem; line-height: 1.6; }
   .exp-points li::before { content: '▸'; position: absolute; left: 0; color: var(--accent); font-size: 0.8rem; }
 
   /* ─── PROJECTS ─── */
   .projects-featured { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
-  .projects-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  .projects-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 2rem; }
   .proj-card {
     background: var(--surface2);
     border: 1px solid var(--border);
@@ -501,18 +501,18 @@
       Harsh<br><span class="line2">Upadhyay</span>
     </h1>
     <p class="hero-role">// <span class="typed" id="typed"></span></p>
-    <p class="hero-bio">Final-year CS undergrad building AI-powered products — from RAG systems and LLM pipelines to full-stack ML deployments.</p>
+    <p class="hero-bio">Final-year CS undergrad building AI-powered products and full-stack web apps — from RAG systems and LLM pipelines to production-ready REST APIs and SaaS dashboards.</p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">↓ View Projects</a>
-      <a href="assets/Harsh_Upadhyay_DS_3 April 2026.pdf" target="_blank" class="btn-primary">View Resume</a>
+      <a href="assets/Harsh_Upadhyay_SDE_10_April_2026.pdf" target="_blank" class="btn-primary">View Resume</a>
     </div>
   </div>
   <div class="hero-right">
     <div class="photo-frame">
-      <div class="photo-badge2">⚡ AI / ML Engineer</div>
-      <img src="assets/images/Profile_pic.png" alt="description">
+      <div class="photo-badge2">⚡ AI / Full-Stack Engineer</div>
+      <img src="assets/images/Profile_pic.png" alt="Harsh Upadhyay">
       <div class="photo-badge">
-        <div class="num">4+</div>
+        <div class="num">6+</div>
         <div class="label">Live Projects</div>
       </div>
     </div>
@@ -531,17 +531,17 @@
         <p class="section-label">// 01 — About</p>
         <h2 class="section-title">The person<br>behind the code.</h2>
         <div class="about-stats">
-          <div class="stat-card"><div class="stat-num">4+</div><div class="stat-desc">Live deployed projects on Render & AWS</div></div>
+          <div class="stat-card"><div class="stat-num">6+</div><div class="stat-desc">Live deployed projects on Render & AWS</div></div>
           <div class="stat-card"><div class="stat-num">90%</div><div class="stat-desc">Model accuracy on Uber fare prediction</div></div>
-          <div class="stat-card"><div class="stat-num">2</div><div class="stat-desc">ML internships completed</div></div>
-          <div class="stat-card"><div class="stat-num">LLM</div><div class="stat-desc">RAG · NLP · GenAI systems built</div></div>
+          <div class="stat-card"><div class="stat-num">4</div><div class="stat-desc">Internships & industry trainings completed</div></div>
+          <div class="stat-card"><div class="stat-num">LLM</div><div class="stat-desc">RAG · NLP · GenAI · Full-Stack systems built</div></div>
         </div>
       </div>
       <div class="reveal">
         <div class="about-text">
           <p>I'm a Computer Science undergrad at Hindustan College of Science & Technology, Mathura, passionate about turning raw data and large language models into products people actually use.</p>
-          <p>My work spans the full ML lifecycle — data preprocessing and feature engineering through to API deployment and live monitoring. I love building things that work in the real world, not just in notebooks.</p>
-          <p>Currently exploring the intersection of GenAI and practical software engineering: RAG pipelines, semantic search, LLM-powered tools, and fast REST APIs.</p>
+          <p>My work spans both the ML lifecycle and full-stack engineering — from data preprocessing and LLM pipelines to building RESTful APIs, SaaS dashboards, and deploying production apps end-to-end.</p>
+          <p>Currently exploring the intersection of GenAI and practical software engineering: RAG pipelines, semantic search, LLM-powered tools, and scalable backend architectures with React & Node.js.</p>
         </div>
         <div class="edu-card">
           <div class="inst">🎓 Hindustan College of Science and Technology, Mathura</div>
@@ -569,38 +569,56 @@
       <div class="skill-card reveal">
         <div class="skill-icon">🐍</div>
         <div class="skill-cat">Programming</div>
-        <div class="skill-name">Python</div>
-        <div class="skill-tags"><span class="tag">DSA</span><span class="tag">OOP</span><span class="tag">Scripting</span></div>
+        <div class="skill-name">Python & SQL</div>
+        <div class="skill-tags"><span class="tag">Core Python</span><span class="tag">OOP</span><span class="tag">DSA</span><span class="tag">SQL</span><span class="tag">Scripting</span></div>
       </div>
       <div class="skill-card reveal">
         <div class="skill-icon">🤖</div>
         <div class="skill-cat">Machine Learning</div>
         <div class="skill-name">ML & AI</div>
-        <div class="skill-tags"><span class="tag">Regression</span><span class="tag">Classification</span><span class="tag">Clustering</span><span class="tag">Feature Eng.</span></div>
+        <div class="skill-tags"><span class="tag">Regression</span><span class="tag">Classification</span><span class="tag">Clustering</span><span class="tag">Feature Eng.</span><span class="tag">Scikit-learn</span></div>
       </div>
       <div class="skill-card reveal">
         <div class="skill-icon">✨</div>
         <div class="skill-cat">Generative AI</div>
         <div class="skill-name">LLMs & RAG</div>
-        <div class="skill-tags"><span class="tag">LLaMA</span><span class="tag">Groq</span><span class="tag">RAG</span><span class="tag">Prompt Eng.</span><span class="tag">NLP</span></div>
+        <div class="skill-tags"><span class="tag">LLaMA</span><span class="tag">Groq</span><span class="tag">RAG</span><span class="tag">FAISS</span><span class="tag">Prompt Eng.</span><span class="tag">NLP</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚛️</div>
+        <div class="skill-cat">Frontend</div>
+        <div class="skill-name">React & Web</div>
+        <div class="skill-tags"><span class="tag">React.js</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Recharts</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🚀</div>
+        <div class="skill-cat">Backend & APIs</div>
+        <div class="skill-name">Node.js & Flask</div>
+        <div class="skill-tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Flask</span><span class="tag">FastAPI</span><span class="tag">JWT</span><span class="tag">REST</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-cat">Databases & Cloud</div>
+        <div class="skill-name">Databases & Deploy</div>
+        <div class="skill-tags"><span class="tag">MongoDB</span><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">SQLite</span><span class="tag">AWS</span><span class="tag">Render</span></div>
       </div>
       <div class="skill-card reveal">
         <div class="skill-icon">📊</div>
         <div class="skill-cat">Data Analytics</div>
         <div class="skill-name">BI & Analytics</div>
-        <div class="skill-tags"><span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">EDA</span><span class="tag">Pandas</span></div>
+        <div class="skill-tags"><span class="tag">Power BI</span><span class="tag">Pandas</span><span class="tag">EDA</span><span class="tag">Excel</span><span class="tag">Plotly</span></div>
       </div>
       <div class="skill-card reveal">
         <div class="skill-icon">🧠</div>
         <div class="skill-cat">Deep Learning</div>
         <div class="skill-name">Neural Networks</div>
-        <div class="skill-tags"><span class="tag">ANN</span><span class="tag">CNN</span><span class="tag">Scikit-learn</span></div>
+        <div class="skill-tags"><span class="tag">ANN</span><span class="tag">CNN</span><span class="tag">TensorFlow</span><span class="tag">Keras</span></div>
       </div>
       <div class="skill-card reveal">
-        <div class="skill-icon">🚀</div>
-        <div class="skill-cat">Deployment</div>
-        <div class="skill-name">APIs & Cloud</div>
-        <div class="skill-tags"><span class="tag">FastAPI</span><span class="tag">Flask</span><span class="tag">AWS</span><span class="tag">Render</span><span class="tag">MySQL</span></div>
+        <div class="skill-icon">🛠️</div>
+        <div class="skill-cat">Tools</div>
+        <div class="skill-name">Dev Tools</div>
+        <div class="skill-tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span><span class="tag">Jupyter</span><span class="tag">BeautifulSoup</span></div>
       </div>
     </div>
   </div>
@@ -613,6 +631,24 @@
     <h2 class="section-title">Where I've worked.</h2>
     <div class="divider"></div>
     <div class="exp-list">
+
+      <!-- NEW: Webmobi360 -->
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Webmobi360 <span style="color:var(--muted);font-weight:400;font-size:0.85rem;">· B2B AIML Solutions</span></div>
+            <div class="exp-role">Full Stack Development Intern</div>
+          </div>
+          <div class="exp-period">Sept – Dec 2025 · Remote</div>
+        </div>
+        <ul class="exp-points">
+          <li>Implemented JWT-based authentication and role-based access control for a production B2B platform.</li>
+          <li>Collaborated with a cross-functional team to design and develop RESTful APIs using Node.js.</li>
+          <li>Followed Agile development processes and incorporated feedback to deliver reliable, maintainable results.</li>
+        </ul>
+      </div>
+
+      <!-- Aimerz.ai -->
       <div class="exp-card reveal">
         <div class="exp-header">
           <div>
@@ -626,6 +662,8 @@
           <li>Performed data cleaning, feature engineering and model evaluation using Python, Pandas and Scikit-learn.</li>
         </ul>
       </div>
+
+      <!-- India Space Lab -->
       <div class="exp-card reveal">
         <div class="exp-header">
           <div>
@@ -639,6 +677,23 @@
           <li>Gained hands-on experience in data preprocessing, model training and collaborative research environment.</li>
         </ul>
       </div>
+
+      <!-- NEW: RCPL -->
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">RCPL <span style="color:var(--muted);font-weight:400;font-size:0.85rem;">· Hindustan College of Science & Technology</span></div>
+            <div class="exp-role">Full Stack Developer Trainee</div>
+          </div>
+          <div class="exp-period">Sept – Nov 2024 · On-site</div>
+        </div>
+        <ul class="exp-points">
+          <li>Built 3 full-stack web applications using Node.js and MongoDB with scalable backend architecture.</li>
+          <li>Implemented 6 CRUD modules and secure authentication flows across full-stack projects.</li>
+          <li>Designed clean, reusable backend logic to ensure consistency and maintainability across projects.</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 </section>
@@ -650,6 +705,7 @@
     <h2 class="section-title">Things I've built.</h2>
     <div class="divider"></div>
 
+    <!-- Featured row -->
     <div class="projects-featured">
       <div class="proj-card featured reveal">
         <div class="proj-tag">⭐ Featured</div>
@@ -678,7 +734,30 @@
       </div>
     </div>
 
+    <!-- Row 2: SaaS + QueryAI + DocMind -->
     <div class="projects-row">
+      <div class="proj-card reveal">
+        <div class="proj-tag">🛠 Full-Stack</div>
+        <div class="proj-name">Multi-Tenant SaaS Dashboard</div>
+        <p class="proj-desc">Full-stack SaaS dashboard with JWT auth and RBAC across 4 roles — org-scoped data isolation on all routes. Real-time analytics with Recharts tracking sessions, revenue, and active users from MongoDB Atlas.</p>
+        <div class="proj-stack"><span>React.js</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span><span>Recharts</span></div>
+        <div class="proj-links">
+          <a href="#" target="_blank" class="proj-link">↗ Live Demo</a>
+          <a href="https://github.com/harshupadhyay14" target="_blank" class="proj-link gh">GitHub</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-tag">🛠 AI + Full-Stack</div>
+        <div class="proj-name">QueryAI — AI SQL Query Generator</div>
+        <p class="proj-desc">AI-powered full-stack app that generates accurate SQL from plain English using LLaMA 3.3 70B, eliminating the need for SQL knowledge. Supports multi-user SQLite and CSV uploads with dynamic schema extraction and live query execution.</p>
+        <div class="proj-stack"><span>React</span><span>Flask</span><span>Python</span><span>SQLite</span><span>Groq LLaMA 3.3</span></div>
+        <div class="proj-links">
+          <a href="#" target="_blank" class="proj-link">↗ Live Demo</a>
+          <a href="https://github.com/harshupadhyay14" target="_blank" class="proj-link gh">GitHub</a>
+        </div>
+      </div>
+
       <div class="proj-card reveal">
         <div class="proj-tag">🛠 Project</div>
         <div class="proj-name">DocMind — PDF QA Bot & Article Summarizer</div>
@@ -689,7 +768,10 @@
           <a href="https://github.com/harshupadhyay14" target="_blank" class="proj-link gh">GitHub</a>
         </div>
       </div>
+    </div>
 
+    <!-- Row 3: Travel + Coming Soon -->
+    <div class="projects-row">
       <div class="proj-card reveal">
         <div class="proj-tag">🛠 Project</div>
         <div class="proj-name">AI Travel Planner</div>
@@ -707,7 +789,15 @@
         <div>Coming Soon</div>
         <div style="margin-top:0.5rem;font-size:0.7rem;">Building something new...</div>
       </div>
+
+      <div class="coming-soon reveal" style="border-color:rgba(167,139,250,0.2);">
+        <div class="cs-icon" style="opacity:0.3;">✨</div>
+        <div style="font-size:0.9rem;color:var(--text);margin-bottom:0.3rem;">More on GitHub</div>
+        <div style="font-size:0.75rem;line-height:1.6;color:var(--muted);">Check out more experiments and work-in-progress repos</div>
+        <a href="https://github.com/harshupadhyay14" target="_blank" style="margin-top:0.8rem;font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--accent3);text-decoration:none;border:1px solid rgba(167,139,250,0.3);padding:0.35rem 0.9rem;border-radius:6px;">↗ github.com/harshupadhyay14</a>
+      </div>
     </div>
+
   </div>
 </section>
 
@@ -738,19 +828,16 @@
       <div class="reveal">
         <div id="contact-form-wrap">
         <form class="contact-form">
-
           <div class="form-row">
             <div class="form-group">
               <label>Your Name *</label>
               <input type="text" name="name" placeholder="John Doe" required>
             </div>
-
             <div class="form-group">
               <label>Your Email *</label>
               <input type="email" name="email" placeholder="john@example.com" required>
             </div>
           </div>
-
           <div class="form-group">
             <label>Subject *</label>
             <select name="subject">
@@ -762,16 +849,13 @@
               <option>Other</option>
             </select>
           </div>
-
           <div class="form-group">
             <label>Message *</label>
             <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
           </div>
-
           <button type="submit" class="form-submit">
             Send Message ✦
           </button>
-
         </form>
         <div id="form-success">
           <div class="check">✅</div>
@@ -826,7 +910,7 @@ function drawCanvas() {
 drawCanvas();
 
 // ── TYPEWRITER
-const phrases = ['AI & ML Engineer','Data Scientist','LLM Builder','RAG Architect','Full-Stack ML Dev'];
+const phrases = ['AI & ML Engineer','Full-Stack Developer','LLM Builder','RAG Architect','SaaS Builder'];
 let pi=0, ci=0, deleting=false;
 function type() {
   const el = document.getElementById('typed');
@@ -844,21 +928,16 @@ document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 // ── CONTACT FORM
 document.querySelector(".contact-form").addEventListener("submit", async function(e) {
   e.preventDefault();
-
   const formData = new FormData(this);
-
   const response = await fetch("https://formspree.io/f/mjgpldpg", {
     method: "POST",
     body: formData,
-    headers: {
-      'Accept': 'application/json'
-    }
+    headers: { 'Accept': 'application/json' }
   });
-
-if (response.ok) {
-  document.querySelector(".contact-form").style.display = "none";
-  document.getElementById("form-success").style.display = "block";
-  this.reset();
+  if (response.ok) {
+    document.querySelector(".contact-form").style.display = "none";
+    document.getElementById("form-success").style.display = "block";
+    this.reset();
   } else {
     alert("Something went wrong ❌");
   }
